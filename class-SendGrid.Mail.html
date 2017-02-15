@@ -1,0 +1,1704 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class SendGrid\Mail | CF Documentation</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">CF Documentation</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-SendGrid.html" title="Summary of SendGrid"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+					</li>
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+					<li>
+						<a href="namespace-PHP.html">
+							PHP						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-SendGrid.html">
+							SendGrid						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-SendGrid.ASM.html">ASM</a></li>
+				<li><a href="class-SendGrid.Attachment.html">Attachment</a></li>
+				<li><a href="class-SendGrid.BccSettings.html">BccSettings</a></li>
+				<li><a href="class-SendGrid.BypassListManagement.html">BypassListManagement</a></li>
+				<li><a href="class-SendGrid.ClickTracking.html">ClickTracking</a></li>
+				<li><a href="class-SendGrid.Content.html">Content</a></li>
+				<li><a href="class-SendGrid.Email.html">Email</a></li>
+				<li><a href="class-SendGrid.Footer.html">Footer</a></li>
+				<li><a href="class-SendGrid.Ganalytics.html">Ganalytics</a></li>
+				<li class="active"><a href="class-SendGrid.Mail.html">Mail</a></li>
+				<li><a href="class-SendGrid.MailSettings.html">MailSettings</a></li>
+				<li><a href="class-SendGrid.OpenTracking.html">OpenTracking</a></li>
+				<li><a href="class-SendGrid.Personalization.html">Personalization</a></li>
+				<li><a href="class-SendGrid.ReplyTo.html">ReplyTo</a></li>
+				<li><a href="class-SendGrid.SandBoxMode.html">SandBoxMode</a></li>
+				<li><a href="class-SendGrid.SpamCheck.html">SpamCheck</a></li>
+				<li><a href="class-SendGrid.SubscriptionTracking.html">SubscriptionTracking</a></li>
+				<li><a href="class-SendGrid.TrackingSettings.html">TrackingSettings</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Mail</h1>
+
+
+	<div class="description">
+	<p>The final request body object</p>
+	</div>
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+<b><span>SendGrid\Mail</span></b>			
+			 implements 
+<span>jsonSerializable</span>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-SendGrid.html">SendGrid</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-SendGrid.Mail.html#888-1125" title="Go to source code">classes/email/sendgrid/lib/helpers/mail/Mail.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#917-929" title="Go to source code">__construct</a>( <span> <var>$from</var> = <span class="php-keyword1">null</span></span>, <span> <var>$subject</var> = <span class="php-keyword1">null</span></span>, <span> <var>$to</var> = <span class="php-keyword1">null</span></span>, <span> <var>$content</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFrom" id="_setFrom">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFrom">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#931-934" title="Go to source code">setFrom</a>( <span> <var>$email</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getFrom" id="_getFrom">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getFrom">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#936-939" title="Go to source code">getFrom</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addPersonalization" id="_addPersonalization">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addPersonalization">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#941-944" title="Go to source code">addPersonalization</a>( <span> <var>$personalization</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getPersonalizations" id="_getPersonalizations">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getPersonalizations">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#946-949" title="Go to source code">getPersonalizations</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setSubject" id="_setSubject">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setSubject">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#951-954" title="Go to source code">setSubject</a>( <span> <var>$subject</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getSubject" id="_getSubject">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getSubject">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#956-959" title="Go to source code">getSubject</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addContent" id="_addContent">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addContent">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#961-964" title="Go to source code">addContent</a>( <span> <var>$content</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getContents" id="_getContents">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getContents">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#966-969" title="Go to source code">getContents</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addAttachment" id="_addAttachment">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addAttachment">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#971-974" title="Go to source code">addAttachment</a>( <span> <var>$attachment</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getAttachments" id="_getAttachments">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getAttachments">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#976-979" title="Go to source code">getAttachments</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setTemplateId" id="_setTemplateId">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setTemplateId">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#981-984" title="Go to source code">setTemplateId</a>( <span> <var>$template_id</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getTemplateId" id="_getTemplateId">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getTemplateId">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#986-989" title="Go to source code">getTemplateId</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addSection" id="_addSection">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addSection">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#991-994" title="Go to source code">addSection</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getSections" id="_getSections">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getSections">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#996-999" title="Go to source code">getSections</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addHeader" id="_addHeader">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addHeader">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1001-1004" title="Go to source code">addHeader</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getHeaders" id="_getHeaders">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getHeaders">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1006-1009" title="Go to source code">getHeaders</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addCategory" id="_addCategory">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addCategory">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1011-1014" title="Go to source code">addCategory</a>( <span> <var>$category</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getCategories" id="_getCategories">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getCategories">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1016-1019" title="Go to source code">getCategories</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addCustomArg" id="_addCustomArg">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addCustomArg">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1021-1024" title="Go to source code">addCustomArg</a>( <span> <var>$key</var></span>, <span> <var>$value</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getCustomArgs" id="_getCustomArgs">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getCustomArgs">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1026-1029" title="Go to source code">getCustomArgs</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setSendAt" id="_setSendAt">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setSendAt">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1031-1034" title="Go to source code">setSendAt</a>( <span> <var>$send_at</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getSendAt" id="_getSendAt">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getSendAt">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1036-1039" title="Go to source code">getSendAt</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setBatchId" id="_setBatchId">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setBatchId">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1041-1044" title="Go to source code">setBatchId</a>( <span> <var>$batch_id</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getBatchId" id="_getBatchId">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getBatchId">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1046-1049" title="Go to source code">getBatchId</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setASM" id="_setASM">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setASM">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1051-1054" title="Go to source code">setASM</a>( <span> <var>$asm</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getASM" id="_getASM">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getASM">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1056-1059" title="Go to source code">getASM</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setIpPoolName" id="_setIpPoolName">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setIpPoolName">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1061-1064" title="Go to source code">setIpPoolName</a>( <span> <var>$ip_pool_name</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getIpPoolName" id="_getIpPoolName">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getIpPoolName">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1066-1069" title="Go to source code">getIpPoolName</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setMailSettings" id="_setMailSettings">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setMailSettings">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1071-1074" title="Go to source code">setMailSettings</a>( <span> <var>$mail_settings</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getMailSettings" id="_getMailSettings">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getMailSettings">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1076-1079" title="Go to source code">getMailSettings</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setTrackingSettings" id="_setTrackingSettings">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setTrackingSettings">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1081-1084" title="Go to source code">setTrackingSettings</a>( <span> <var>$tracking_settings</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getTrackingSettings" id="_getTrackingSettings">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getTrackingSettings">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1086-1089" title="Go to source code">getTrackingSettings</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setReplyTo" id="_setReplyTo">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setReplyTo">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1091-1094" title="Go to source code">setReplyTo</a>( <span> <var>$reply_to</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getReplyTo" id="_getReplyTo">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getReplyTo">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1096-1099" title="Go to source code">getReplyTo</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="jsonSerialize" id="_jsonSerialize">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_jsonSerialize">#</a>
+			<code><a href="source-class-SendGrid.Mail.html#1101-1124" title="Go to source code">jsonSerialize</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="VERSION" id="VERSION">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-SendGrid.Mail.html#893" title="Go to source code"><b>VERSION</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#VERSION" class="anchor">#</a>
+						<code><span class="php-quote">'1.0.0'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="namespace" id="$namespace">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#895-896" title="Go to source code"><var>$namespace</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$namespace" class="anchor">#</a>
+					<code><span class="php-quote">'SendGrid'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="from" id="$from">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#898-899" title="Go to source code"><var>$from</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$from" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="personalization" id="$personalization">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#900" title="Go to source code"><var>$personalization</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$personalization" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="subject" id="$subject">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#901" title="Go to source code"><var>$subject</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$subject" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="contents" id="$contents">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#902" title="Go to source code"><var>$contents</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$contents" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="attachments" id="$attachments">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#903" title="Go to source code"><var>$attachments</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$attachments" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="template_id" id="$template_id">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#904" title="Go to source code"><var>$template_id</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$template_id" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="sections" id="$sections">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#905" title="Go to source code"><var>$sections</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$sections" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="headers" id="$headers">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#906" title="Go to source code"><var>$headers</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$headers" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="categories" id="$categories">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#907" title="Go to source code"><var>$categories</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$categories" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="custom_args" id="$custom_args">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#908" title="Go to source code"><var>$custom_args</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$custom_args" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="send_at" id="$send_at">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#909" title="Go to source code"><var>$send_at</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$send_at" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="batch_id" id="$batch_id">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#910" title="Go to source code"><var>$batch_id</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$batch_id" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="asm" id="$asm">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#911" title="Go to source code"><var>$asm</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$asm" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="ip_pool_name" id="$ip_pool_name">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#912" title="Go to source code"><var>$ip_pool_name</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$ip_pool_name" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="mail_settings" id="$mail_settings">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#913" title="Go to source code"><var>$mail_settings</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$mail_settings" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="tracking_settings" id="$tracking_settings">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#914" title="Go to source code"><var>$tracking_settings</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$tracking_settings" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="reply_to" id="$reply_to">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SendGrid.Mail.html#915" title="Go to source code"><var>$reply_to</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$reply_to" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		CF Documentation API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
